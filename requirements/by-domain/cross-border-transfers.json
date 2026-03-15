@@ -1,0 +1,12 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "cross-border-transfers",
+  "domainName": "Cross-Border Data Transfers",
+  "requirements": [
+    { "controlRef": "CB-01", "id": "CB-R01", "requirement": "Identify and implement lawful transfer mechanisms for all cross-border data flows.", "priority": "critical", "owner": "DPO" },
+    { "controlRef": "CB-02", "id": "CB-R02", "requirement": "Assess adequacy of data protection in destination countries before authorizing transfers.", "priority": "critical", "owner": "DPO" },
+    { "controlRef": "CB-03", "id": "CB-R03", "requirement": "Implement encryption, access controls, and monitoring for all cross-border data transfers.", "priority": "critical", "owner": "Security Architect" },
+    { "controlRef": "CB-04", "id": "CB-R04", "requirement": "Identify and comply with data localization mandates in applicable ASEAN jurisdictions.", "priority": "high", "owner": "Compliance" },
+    { "controlRef": "CB-05", "id": "CB-R05", "requirement": "Conduct data transfer impact assessments for all cross-border data flows.", "priority": "high", "owner": "DPO" }
+  ]
+}

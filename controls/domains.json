@@ -1,0 +1,29 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Domain structure based on ASEAN Framework on Digital Data Governance themes. Content is indicative.",
+  "data-classification": {
+    "name": "Data Classification",
+    "description": "Standards for classifying data by sensitivity, criticality, and regulatory requirements across ASEAN jurisdictions",
+    "controlCount": 4
+  },
+  "cross-border-transfers": {
+    "name": "Cross-Border Data Transfers",
+    "description": "Controls and mechanisms for lawful cross-border transfer of personal and regulated data within and outside ASEAN",
+    "controlCount": 5
+  },
+  "model-contractual-clauses": {
+    "name": "Model Contractual Clauses",
+    "description": "Standardized contractual frameworks for data sharing between ASEAN member states and with third countries",
+    "controlCount": 4
+  },
+  "data-protection-standards": {
+    "name": "Data Protection Standards",
+    "description": "Harmonized data protection technical and organizational standards across ASEAN frameworks",
+    "controlCount": 4
+  },
+  "regulatory-harmonization": {
+    "name": "Regulatory Harmonization",
+    "description": "Mechanisms for aligning regulatory requirements across ASEAN member states for digital data governance",
+    "controlCount": 3
+  }
+}

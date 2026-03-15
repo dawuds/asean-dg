@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASEAN Data Governance Explorer</title>
+  <meta name="description" content="Interactive browser for ASEAN Framework on Digital Data Governance — explore controls for cross-border transfers, data classification, and regulatory harmonization.">
+  <meta property="og:title" content="ASEAN Data Governance Framework">
+  <meta property="og:description" content="ASEAN digital data governance reference with 20 controls across 5 domains">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="header-brand" title="Home">
+        <h1>ASEAN Data Governance Explorer</h1>
+        <span class="header-subtitle">Framework on Digital Data Governance</span>
+      </a>
+      <div class="header-search">
+        <input type="text" id="search-input" aria-label="Search compliance data" placeholder="Search controls, requirements, evidence…" autocomplete="off">
+      </div>
+    </div>
+  </header>
+  <nav class="nav" id="site-nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-link active" data-view="overview">Overview</a>
+      <a href="#controls" class="nav-link" data-view="controls">Controls</a>
+      <a href="#requirements" class="nav-link" data-view="requirements">Requirements</a>
+      <a href="#reference" class="nav-link" data-view="reference">Reference</a>
+      <div class="nav-actions">
+        <button onclick="exportToCSV()" class="btn-export">CSV</button>
+      </div>
+    </div>
+  </nav>
+  <div id="app">
+    <noscript>This application requires JavaScript.</noscript>
+    <div class="loading">
+      <div class="spinner"></div>
+      <span>Loading ASEAN DG data…</span>
+    </div>
+  </div>
+  <footer class="app-footer">
+    <p>ASEAN Data Governance Explorer — Part of the <a href="https://dawud.github.io/grc/">GRC Portfolio</a>. Content is <strong>constructed-indicative</strong> and not a substitute for official ASEAN framework documents.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

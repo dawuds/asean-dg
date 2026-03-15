@@ -1,0 +1,11 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "model-contractual-clauses",
+  "domainName": "Model Contractual Clauses",
+  "requirements": [
+    { "controlRef": "MC-01", "id": "MC-R01", "requirement": "Adopt ASEAN Model Contractual Clauses for intra-ASEAN data sharing agreements.", "priority": "high", "owner": "Legal" },
+    { "controlRef": "MC-02", "id": "MC-R02", "requirement": "Implement contractual clauses with equivalent protections for transfers to non-ASEAN countries.", "priority": "high", "owner": "Legal" },
+    { "controlRef": "MC-03", "id": "MC-R03", "requirement": "Ensure data protection obligations flow down to all sub-processors.", "priority": "high", "owner": "Vendor Management" },
+    { "controlRef": "MC-04", "id": "MC-R04", "requirement": "Include cross-border breach notification clauses aligned with the most stringent applicable timeline.", "priority": "critical", "owner": "DPO" }
+  ]
+}

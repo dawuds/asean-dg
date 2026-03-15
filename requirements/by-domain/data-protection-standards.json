@@ -1,0 +1,11 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "data-protection-standards",
+  "domainName": "Data Protection Standards",
+  "requirements": [
+    { "controlRef": "DP-01", "id": "DP-R01", "requirement": "Implement privacy by design meeting requirements of all applicable ASEAN jurisdictions.", "priority": "high", "owner": "Privacy Engineering" },
+    { "controlRef": "DP-02", "id": "DP-R02", "requirement": "Apply harmonized encryption standards meeting the highest applicable ASEAN requirement.", "priority": "critical", "owner": "Security Architect" },
+    { "controlRef": "DP-03", "id": "DP-R03", "requirement": "Enable data subjects to exercise rights regardless of which ASEAN jurisdiction holds their data.", "priority": "high", "owner": "DPO" },
+    { "controlRef": "DP-04", "id": "DP-R04", "requirement": "Coordinate incident response across jurisdictions with notification to all applicable authorities.", "priority": "critical", "owner": "Incident Response Lead" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "regulatory-harmonization",
+  "domainName": "Regulatory Harmonization",
+  "requirements": [
+    { "controlRef": "RH-01", "id": "RH-R01", "requirement": "Monitor regulatory changes across all relevant ASEAN jurisdictions for data governance impact.", "priority": "high", "owner": "Compliance" },
+    { "controlRef": "RH-02", "id": "RH-R02", "requirement": "Maintain a compliance mapping cross-referencing requirements across ASEAN data protection laws.", "priority": "high", "owner": "Compliance" },
+    { "controlRef": "RH-03", "id": "RH-R03", "requirement": "Align certifications with ASEAN cross-border data protection certification frameworks.", "priority": "medium", "owner": "Compliance" }
+  ]
+}

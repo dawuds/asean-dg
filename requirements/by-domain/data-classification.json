@@ -1,0 +1,11 @@
+{
+  "sourceType": "constructed-indicative",
+  "domain": "data-classification",
+  "domainName": "Data Classification",
+  "requirements": [
+    { "controlRef": "DC-01", "id": "DC-R01", "requirement": "Establish a cross-jurisdictional data classification framework aligned with ASEAN member state regulatory requirements.", "priority": "critical", "owner": "Data Governance Lead" },
+    { "controlRef": "DC-02", "id": "DC-R02", "requirement": "Maintain a comprehensive inventory of data assets subject to cross-border transfer with jurisdictional mapping.", "priority": "critical", "owner": "Data Governance Lead" },
+    { "controlRef": "DC-03", "id": "DC-R03", "requirement": "Map data sensitivity to regulatory requirements of each applicable ASEAN jurisdiction.", "priority": "high", "owner": "Compliance" },
+    { "controlRef": "DC-04", "id": "DC-R04", "requirement": "Implement machine-readable data labelling standards portable across systems and jurisdictions.", "priority": "high", "owner": "Data Architecture" }
+  ]
+}

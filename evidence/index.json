@@ -1,0 +1,16 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "AI-generated indicative evidence items for ASEAN data governance compliance.",
+  "evidence": [
+    { "id": "ADG-E001", "controlRef": "DC-01", "name": "Cross-Jurisdictional Classification Policy", "description": "Data classification policy addressing ASEAN member state requirements", "format": "PDF", "frequency": "Annual review", "owner": "Data Governance Lead" },
+    { "id": "ADG-E002", "controlRef": "DC-02", "name": "Cross-Border Data Flow Inventory", "description": "Inventory of data assets and flows across ASEAN borders with regulatory mapping", "format": "Excel/GRC tool", "frequency": "Quarterly update", "owner": "Data Governance Lead" },
+    { "id": "ADG-E003", "controlRef": "CB-01", "name": "Transfer Mechanism Register", "description": "Register of active cross-border transfers with legal basis documented", "format": "Excel/GRC tool", "frequency": "Quarterly update", "owner": "DPO" },
+    { "id": "ADG-E004", "controlRef": "CB-02", "name": "Adequacy Assessment Reports", "description": "Assessments of destination country data protection adequacy", "format": "PDF", "frequency": "Per destination country", "owner": "DPO" },
+    { "id": "ADG-E005", "controlRef": "CB-05", "name": "Data Transfer Impact Assessments", "description": "Impact assessments for cross-border data transfers", "format": "PDF", "frequency": "Per transfer arrangement", "owner": "DPO" },
+    { "id": "ADG-E006", "controlRef": "MC-01", "name": "Executed ASEAN MCCs", "description": "Signed model contractual clauses for intra-ASEAN data sharing", "format": "PDF/Contract", "frequency": "Per arrangement", "owner": "Legal" },
+    { "id": "ADG-E007", "controlRef": "DP-02", "name": "Encryption Standards Document", "description": "Harmonized encryption standards applied across ASEAN operations", "format": "PDF", "frequency": "Annual review", "owner": "Security Architect" },
+    { "id": "ADG-E008", "controlRef": "DP-03", "name": "Cross-Border DSAR Handling Records", "description": "Records of data subject access requests routed across jurisdictions", "format": "System logs/PDF", "frequency": "Per request", "owner": "DPO" },
+    { "id": "ADG-E009", "controlRef": "RH-01", "name": "Regulatory Change Log", "description": "Log of regulatory changes across ASEAN jurisdictions with impact assessment", "format": "Excel/GRC tool", "frequency": "Continuous", "owner": "Compliance" },
+    { "id": "ADG-E010", "controlRef": "RH-02", "name": "Multi-Jurisdictional Compliance Matrix", "description": "Matrix mapping requirements across ASEAN data protection laws", "format": "Excel", "frequency": "Semi-annual update", "owner": "Compliance" }
+  ]
+}

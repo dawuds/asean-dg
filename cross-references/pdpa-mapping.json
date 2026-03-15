@@ -1,0 +1,16 @@
+{
+  "sourceType": "constructed-indicative",
+  "verificationNote": "Indicative mapping between ASEAN DG controls and Malaysia PDPA 2010, with links to the pdpa-my CBDT module.",
+  "title": "ASEAN Data Governance to Malaysia PDPA Mapping",
+  "description": "Maps ASEAN data governance controls to Malaysia Personal Data Protection Act 2010 (Act 709), specifically the Cross-Border Data Transfer provisions.",
+  "mappings": [
+    { "aseanControl": "CB-01", "pdpaSection": "Section 129", "pdpaDescription": "Cross-Border Data Transfer restrictions", "relationship": "supports", "notes": "Transfer mechanisms must comply with PDPA CBDT provisions. See pdpa-my CBDT module." },
+    { "aseanControl": "CB-02", "pdpaSection": "Section 129(3)", "pdpaDescription": "Minister may specify countries with adequate protection", "relationship": "supports", "notes": "Adequacy assessment aligns with Minister's determination of adequate protection countries." },
+    { "aseanControl": "CB-03", "pdpaSection": "Section 9", "pdpaDescription": "Security Principle", "relationship": "supports", "notes": "Transfer safeguards implement PDPA security principle for cross-border flows." },
+    { "aseanControl": "CB-04", "pdpaSection": "Section 129(1)", "pdpaDescription": "Prohibition on cross-border transfer except with compliance", "relationship": "equivalent", "notes": "Data localization assessment ensures PDPA CBDT compliance." },
+    { "aseanControl": "DC-01", "pdpaSection": "Section 6", "pdpaDescription": "General Principle — lawful processing", "relationship": "supports", "notes": "Classification framework supports lawful processing determination." },
+    { "aseanControl": "MC-01", "pdpaSection": "Section 129(3)(b)", "pdpaDescription": "Transfer with consent or contractual safeguards", "relationship": "supports", "notes": "ASEAN MCCs provide contractual safeguards for PDPA CBDT compliance." },
+    { "aseanControl": "DP-03", "pdpaSection": "Section 12", "pdpaDescription": "Access Principle", "relationship": "supports", "notes": "Cross-border DSAR handling implements PDPA access principle across jurisdictions." },
+    { "aseanControl": "DP-04", "pdpaSection": "Section 12B", "pdpaDescription": "Data breach notification", "relationship": "supports", "notes": "Multi-jurisdictional incident response includes PDPA breach notification." }
+  ]
+}
